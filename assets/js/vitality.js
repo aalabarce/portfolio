@@ -86,8 +86,8 @@
     // Formstone Wallpaper - Video Background Settings
     $("header.video").wallpaper({
         source: {
-            poster: "assets/img/bg-mobile-fallback.jpg",
-            mp4: "assets/mp4/camera.mp4"
+            poster: "assets/img/bg-mobile-fallback.png",
+            mp4: "assets/mp4/walrus-dance.mp4"
         }
     });
 

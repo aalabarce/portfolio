@@ -3,6 +3,12 @@
  * Copyright 2013-2015 Start Bootstrap Themes
  * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
  */
+
+@font-face {
+    font-family: WhiskeyTown-Sober;
+    src: url(../fonts/WhiskeyTown-Sober.ttf);
+}
+
 html,
 body {
   height: 100%;
@@ -59,7 +65,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "WhiskeyTown-Sober";
+  letter-spacing: 2px;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -214,7 +221,8 @@ header .intro-content {
   position: relative;
 }
 header .brand-name {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "WhiskeyTown-Sober";
+  letter-spacing: 8px;
   font-size: 55px;
   line-height: 55px;
   text-transform: uppercase;
